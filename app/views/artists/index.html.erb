@@ -1,0 +1,8 @@
+<div>
+<% artists = Artist.all %>
+<% artists.each do |artist| %>
+  <ul>
+    <li>Name: <%= artist.name %></li>
+  </ul>
+<% end %>
+</div>

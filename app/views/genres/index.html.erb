@@ -1,0 +1,8 @@
+<div>
+<% genres = Genre.all %>
+<% genres.each do |genre| %>
+  <ul>
+    <li><a href="genres/<%= genre.name %>.html"><%= genre.name %></a></li>
+  </ul>
+<% end %>
+</div>
